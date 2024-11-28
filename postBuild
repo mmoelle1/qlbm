@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Update conda
+conda update -n base -c conda-forge conda
+
 # Enable splitcell
 #jupyter contrib nbextension install --user
 #jupyter nbextension enable splitcell/splitcell
