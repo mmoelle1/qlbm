@@ -1,10 +1,14 @@
-name: qlbm
+name: jupyterlab-qlbm
+
 channels:
   - conda-forge
+  
 dependencies:
-  - matplotlib-base
-  - notebook 
+  - jupyterlab
+  - matplotlib
+  - nbgitpuller
+  - pandas
   - pip:
-    - rise
-    - nbgitpuller
-#    - jupyter-contrib-nbextensions
+    - qlbm
+  - python == 3.11
+  - seaborn
