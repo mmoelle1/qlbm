@@ -1,0 +1,10 @@
+name: qlbm
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib-base
+  - notebook 
+  - pip:
+    - rise
+    - nbgitpuller
+    - jupyter-contrib-nbextensions
