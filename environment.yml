@@ -7,4 +7,4 @@ dependencies:
   - pip:
     - rise
     - nbgitpuller
-    - jupyter-contrib-nbextensions
+#    - jupyter-contrib-nbextensions

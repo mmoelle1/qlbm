@@ -1,6 +1,6 @@
 #!/bin/bash
 
 # Enable splitcell
-jupyter contrib nbextension install --user
-jupyter nbextension enable splitcell/splitcell
+#jupyter contrib nbextension install --user
+#jupyter nbextension enable splitcell/splitcell
 
